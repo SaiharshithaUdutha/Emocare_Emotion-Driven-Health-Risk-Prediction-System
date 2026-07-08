@@ -82,4 +82,5 @@ if st.button("Predict Health Risk"):
         st.success("Low risk. Keep up your healthy lifestyle.")
     st.subheader("Health Suggestions")
     for s in suggestions:
+
         st.write(".",s)
